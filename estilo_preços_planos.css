@@ -1,3 +1,77 @@
-body{
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: auto;
+    background-color: #0C1012;
+    color: white;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #060709;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: flex;
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.nav a {
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #CAE200;
+    color: #060709;
+    border-radius: 8px;
+}
+
+.titulo {
+    font-size: 48px;
+    text-align: center;
+    margin: 48px;
+}
+
+.valor {
+    display: flex;
+    justify-content: center;
+    gap: 16px
+}
+
+.plano {
+    display: flex;
+    flex-direction: column;
+    background-color: #21262C;
+    padding: 0px 38px 38px 38px;
+    border-radius: 8px;
+}
+
+.plano span{
+    font-size: 24px;  
+    font-weight: bold;
+
+}
+
+.titulo-plano {
+    border-bottom: 2px solid #CAE200;
+    padding-bottom: 8px;
+}
+
+.lista-preço-plano {
     
 }
+    
+}
+
