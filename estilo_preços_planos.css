@@ -73,6 +73,7 @@ body {
 
 .lista-preco-plano {
     padding-bottom: 40px;
+
 }
 
 .lista-preco-plano li::marker{
@@ -88,4 +89,9 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     padding: 8px;
+}
+
+ul{
+    list-style-position: inside;
+    padding: 0;
 }
