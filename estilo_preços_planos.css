@@ -57,6 +57,7 @@ body {
     background-color: #21262C;
     padding: 0px 38px 38px 38px;
     border-radius: 8px;
+    justify-content: space-between;
 }
 
 .plano span {
@@ -68,6 +69,14 @@ body {
 .titulo-plano {
     border-bottom: 2px solid #CAE200;
     padding-bottom: 8px;
+}
+
+.lista-preco-plano {
+    padding-bottom: 40px;
+}
+
+.lista-preco-plano li::marker{
+    color: #CAE200;
 }
 
 .botao {
