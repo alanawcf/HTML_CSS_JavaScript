@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    background-image: url(imagens/bg-2.jpg);
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-size: 56px;
+    color: white;
+    text-shadow: 0 3px 3px #060709;
+    ;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 8px 0px;
+    border-bottom: 2px solid #ffffff;
+    font-weight: lighter;
+}
+
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    padding: 16px;
+    margin-top: 50px;
+
+}
+
+.cursos-geral {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    list-style-type: none;
+
+
+
+}
+
+.cursos li {
+    display: flex;
+    width: 200px;
+    
+
+
+}

@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.lista-principal {
+    background-color: hsl(0, 0%, 100%);
+    width: 370px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: 8px 8px 0px 0px #000;
+    
+
+}
+
+.lista {
+    list-style: none;
+    padding: 5px 10px 0px 20px;
+}
+
+.imagem {
+    border-radius: 10px;
+}
+
+.botao-tag {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-weight: 800;
+    width: fit-content;
+}
+
+.data{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.titulo-principal{
+    font-size: 24px;
+}
+
+.texto-principal{
+    color: hsl(0, 0%, 50%);
+    font-weight: 400;
+}
+
+.rodape{
+    display: flex;
+    font-weight: 800;
+    font-size: 14px;
+    align-items: center;
+}
+
+.rodape img {
+    width: 30px;
+    height: 30px;
+    padding-right: 8px;
+}
