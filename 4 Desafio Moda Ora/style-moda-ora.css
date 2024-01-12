@@ -22,23 +22,23 @@ body {
 .nav-topo li {
     display: inline-block;
     text-transform: uppercase;
-    margin: 5px 38px ;
+    margin: 5px 38px;
     letter-spacing: 2px;
     font-size: 20px;
     padding-right: 16px;
 
 }
 
-.nav-topo a{
+.nav-topo a {
     text-decoration: none;
     color: #425564;
 }
 
-.img-topo{
+.img-topo {
     width: 100vw;
 }
 
-.img-topo img{
+.img-topo img {
     width: 100%;
 
 }
@@ -50,7 +50,7 @@ body {
     margin: 0 120px;
 }
 
-.paragrafo-1 h1{
+.paragrafo-1 h1 {
     display: flex;
     justify-content: center;
     padding-top: 100px;
@@ -59,22 +59,22 @@ body {
     font-weight: lighter;
 }
 
-.paragrafo-1 p{
+.paragrafo-1 p {
     display: flex;
     text-align: center;
     line-height: 2;
     font-size: 20px;
-    color:#555;
+    color: #555;
 }
 
-.cards-meio{
+.cards-meio {
     display: flex;
     justify-content: center;
     padding-top: 40px;
 }
 
- 
-.lista-cards{
+
+.lista-cards {
     display: flex;
     display: inline-block;
     padding: 15px;
@@ -84,18 +84,49 @@ body {
     width: 320px;
 }
 
-.lista-cards h3{
+.lista-cards h3 {
     text-align: center;
     text-transform: uppercase;
     color: #555;
     letter-spacing: 2px;
     font-size: 20px;
-
-    
 }
 
-.lista-cards p{
+.lista-cards p {
     text-align: center;
     color: #555;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
 
+.paragrafo-2 {
+    background-image: url(./imagens/bg_detalhe.png);
+    width: 100vw;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paragrafo-2 h1 {
+    font-family: 'Viaoda Libre', serif;
+    color: white;
+    font-size: 58px;
+    font-weight: lighter;
+    padding: 180px 0 0 180px;
+}
+
+.paragrafo-2 p {
+    color: white;
+    padding: 10px 400px 0 180px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+footer{
+    background-color: #162028;
+    padding: 30px;
+    text-align: center;
+    color: #425564;
+    font-size: 16px;
+    letter-spacing: 3px;
 }
