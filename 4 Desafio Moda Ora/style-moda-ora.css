@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: no-repeat center;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #162028;
+}
+
+.logo {
+    display: flex;
+    font-family: 'Viaoda Libre', serif;
+    font-size: 48px;
+    color: white;
+    padding-left: 150px;
+    align-items: center;
+}
+
+.nav-topo li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 5px 38px ;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-right: 16px;
+
+}
+
+.nav-topo a{
+    text-decoration: none;
+    color: #425564;
+}
+
+.img-topo{
+    width: 100vw;
+}
+
+.img-topo img{
+    width: 100%;
+
+}
+
+.paragrafo-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 120px;
+}
+
+.paragrafo-1 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: 'Viaoda Libre', serif;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.paragrafo-1 p{
+    display: flex;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    color:#555;
+
+}
