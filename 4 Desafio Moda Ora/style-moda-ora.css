@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
-    background: no-repeat center;
 }
 
 .topo {
@@ -63,8 +62,40 @@ body {
 .paragrafo-1 p{
     display: flex;
     text-align: center;
-    line-height: 1.5;
+    line-height: 2;
     font-size: 20px;
     color:#555;
+}
+
+.cards-meio{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+ 
+.lista-cards{
+    display: flex;
+    display: inline-block;
+    padding: 15px;
+}
+
+.lista-cards img {
+    width: 320px;
+}
+
+.lista-cards h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #555;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+    
+}
+
+.lista-cards p{
+    text-align: center;
+    color: #555;
 
 }
