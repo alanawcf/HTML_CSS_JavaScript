@@ -1,0 +1,171 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2A2A2A;
+    align-items: center;
+}
+
+.nav-topo li {
+    display: flex;
+    display: inline-block;
+    padding: 17px;
+    margin-right: 48px;
+    color: #FED001;
+    text-transform: uppercase;
+    border: solid 1px #FED001;
+    font-size: 12px;
+
+}
+
+.nav-topo a {
+    text-decoration: none;
+    color: #FED001;
+}
+
+.img-logo {
+    margin-left: 48px;
+    padding-bottom: 18px;
+}
+
+.hero {
+    background: linear-gradient(to bottom, #FFFFFF, #FFFF38);
+    display: flex;
+    flex-direction: row-reverse;
+    height: 600px;
+
+}
+
+.hero img {
+    width: 40vw;
+    height: 100%;
+    padding: 0 50px 0;
+}
+
+.titulo-hero {
+    padding: 40px 0 0 100px;
+    font-size: 68px;
+    color: #2A2A2A;
+    padding-left: 20px;
+}
+
+.container-hero {
+    width: 600px;
+}
+
+.botao-hero {
+    background-color: #FED001;
+    padding: 20px;
+    text-decoration: none;
+    color: #2A2A2A;
+    font-weight: 600;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.artigos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    font-size: 24px;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 70px;
+
+}
+
+.subitens {
+    width: 402px;
+    border: #ECEFF4 solid 1px;
+    border-radius: 8px;
+
+}
+
+.subitens h3 {
+    font-size: 24px;
+    margin: 26px;
+}
+
+.subitens p {
+    font-size: 16px;
+    margin: 26px;
+
+}
+
+.botao-artigos {
+    background-color: #FED001;
+    padding: 16px;
+    text-decoration: none;
+    color: #2A2A2A;
+    font-weight: 600;
+    margin-top: 70px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.nossa-escola {
+    background-color: #003464;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin-top: 144px;
+
+}
+
+.texto-1 {
+margin: 20px 100px;
+color: #FAFAFA;
+width: 500px;
+}
+
+.texto-1 h2 {
+    font-size: 30px;
+}
+
+.texto-1 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 70px 0 70px;
+}
+
+.p {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+margin-top: 30px;
+
+}
+
+.info-contato .p div p {
+    margin: 0;
+    
+}
+
+.info-contato .p div {
+    margin-top: 31px;
+}
+
+footer {
+    background-color: #2A2A2A;
+    padding: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
