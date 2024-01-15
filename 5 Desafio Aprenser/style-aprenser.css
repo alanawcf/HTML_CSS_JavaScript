@@ -163,6 +163,10 @@ margin-top: 30px;
     margin-top: 31px;
 }
 
+.info-contato .p iframe {
+    width: 90vw;
+}
+
 footer {
     background-color: #2A2A2A;
     padding: 30px;
