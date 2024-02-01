@@ -56,10 +56,23 @@ input {
 
 .botao {
     cursor: pointer;
-    background-color: #2f4949;
+    background-color: #115500;
     color: #ffff;
     font-weight: bold;
-    padding: 12px;
-    margin-top: 8px;
+    margin-left: auto;
+    width: fit-content;
+    padding: 8px 36px;
+}
+
+.acao-botao {
+display: flex;
+justify-content: space-between;
+gap: 8px;
+
+}
+
+.botao-apagar {
+    background-color: #bd0000;
+
 }
 
