@@ -90,3 +90,9 @@ body {
     gap: 8px;
     flex-direction: row-reverse;
 }
+
+li:hover a {
+    color: deeppink;
+}
+
+  
