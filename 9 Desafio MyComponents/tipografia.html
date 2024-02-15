@@ -27,11 +27,105 @@
     </header>
 
     <main class="conteudo-home">
-        <h1>Tipografia</h1>
+        <article>
+            <h1>Tipografia</h1>
 
-        
+            <h4 class="subtitulo">Textos</h4>
+            <p>Esse texto está escrito em <b>negrito</b> e esse texto é um <strong>texto forte</strong></p>
+            <p>Esse texto está em <i>itálico</i> e este está <em>com ênfase</em></p>
+            <p>Isto é um texto escrito de forma <u class="underline">erada</u> e isso é um <a href="#">link</a></p>
+        </article>
 
-        
+        <article>
+            <h4 class="subtitulo">Sobreescrito e Subscrito</h4>
+            <p>3<sup>2</sup> é igual a 9</p>
+            <p>A fórmula da água é H<sub>2</sub>O</p>
+        </article>
+
+        <article>
+            <h4 class="subtitulo">Abreviações</h4>
+            <p>Para criar páginas na web, precisamos aprender sobre HTML</p>
+
+            <p>Para criar páginas na web, precisamos aprender sobre <a href="html-dfn"><dfn id="html-dfn">
+                        <abbr title="HiperText Markup Language">HTML</abbr></dfn></a>
+            </p>
+
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/abbr" target="_blank">&lt;abbr&gt;</a>
+            <p>O <dfn id="html">
+                    <abbr title="HiperText Markup Language">HTML</abbr>
+                </dfn> é a principal linguagem da web onde podemos incluir nosso conteúdo de forma semântica</p>
+        </article>
+
+        <article>
+            <h4 class="subtitulo">Citações</h4>
+            <blockquote>
+                <p>O ruim não é ter trabalho, o ruim é ter que trabalhar</p>
+                <cite>Seu Madruga</cite>
+            </blockquote>
+
+            <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+                <p>O Elemento HTML &lt;blockquote&gt; (ou Elemento HTML de citação de bloco) indica que o texto incluído
+                    é uma longa citação.</p>
+                <cite>MDN</cite>
+            </blockquote>
+
+            <p>Segundo o Seu Madruga <q>A vingança nunca é plena, mata a alma e envenena</q>.</p>
+
+            <p>De acordo com o site do mozilla
+                <q cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/cite">Firefox 1.0 foi lançado em
+                    2004 e se tornou um grande sucesso.</q>
+            </p>
+
+            <p>O filme <cite>Escola do Rock</cite> contém várias músicas antigas</p>
+        </article>
+
+        <article>
+            <h4 class="subtitulo">Coisas de computador</h4>
+
+            <p>A propriedade <code>background</code> do CSS serve para colocar uma imagem de fundo</p>
+
+            <pre>
+                Este texto é um texto pré-formatado
+            </pre>
+
+            <pre>
+                <code>
+.nav-principal {
+    display: flex;
+    justify-content: right;
+    background-color: #a196c9;
+    width: 20%;
+}
+                </code>
+            </pre>
+
+            <p>
+                Após executar o método <code>push()</code>, obtive o retorno <samp lang="en-us">undefined has not a
+                    push()
+                    function</samp>
+            </p>
+
+            <p>Pressione as teclas <kbd>CTRL</kbd> + <kbd>C</kbd> para copiar</p>
+        </article>
+
+        <article>
+            <h4 class="subtitulo">Datas e Horários</h4>
+
+            <p>O evento acontecerá dia <time datetime="2024-02-15">15 de fevereiro de 2024</time></p>
+
+            <p>O evento acontecerá dia <time datetime="2024-02-15">15/02/2024</time></p>
+
+            <p>O evento acontecerá às <time datetime="2024-02-15T20:00:00">20h do dia 15/02/2024</time></p>
+
+            <p>O evento acontecerá às <time datetime="2024-02-15T20:00:00-03:00">20h do dia 15/02/2024</time></p>
+
+            <h5 lang="en-us">JS Conference</h5>
+            <p>O evento iniciará exatamente as <time datetime="19:00">19h</time></p>
+
+            <p>O evento acontecerá às 20h do dia <del datetime="2024-02-06">11/02/2024</del> <ins> <time
+                        datetime="2024-02-15T20:00:00-03:00">15/02/2024</time></ins></p>
+
+        </article>
     </main>
 
 </body>

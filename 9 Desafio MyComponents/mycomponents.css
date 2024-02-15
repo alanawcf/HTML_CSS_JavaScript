@@ -7,24 +7,23 @@ body {
 
 .pag-geral {
     display: flex;
-
+    min-height: 100vh;
+    height: 100%;
 }
 
 .nav-principal {
     display: flex;
     justify-content: right;
     background-color: #a196c9;
-    height: 100vh;
     width: 20%;
 }
 
 .itens {
     padding: 1.5em;
-    display: flex ;
+    display: flex;
     flex-direction: column;
     justify-content: right;
     align-items: end;
-    
 }
 
 .itens img {
@@ -33,8 +32,6 @@ body {
     border-radius: 100%;
     margin-top: 1em;
     margin-bottom: 16px;
-
-    
 }
 
 .nav-principal a {
@@ -93,6 +90,205 @@ body {
 
 li:hover a {
     color: deeppink;
+    color: a;
 }
 
-  
+
+/* --------------------PAGINA TIPOGRAFIA---------------- */
+
+.underline {
+    text-decoration: red wavy underline;
+}
+
+
+/* ---------------------PAGINA CARDS--------------------- */
+
+.ghibli {
+    display: flex;
+    flex-direction: column;
+}
+
+.ghibli img {
+    width: 150px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ghibli p {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+}
+
+
+.filmes {
+    display: flex;
+    border-bottom: 1px solid #a196c9;
+    padding-bottom: 24px;
+    padding-top: 24px;
+
+}
+
+.tomatoes img {
+    width: 20px;
+    height: 20px;
+    padding-left: 24px;
+}
+
+.tomatoes a {
+    font-size: 14px;
+    padding-right: 8px;
+    color: #131313;
+    font-weight: 600;
+
+}
+
+.tomatoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-filme {
+    padding-left: 24px;
+    margin-top: 0px;
+}
+
+
+/* --------------------PAGINA LISTAS---------------- */
+
+.row {
+    display: flex;
+    gap: 3rem;
+    padding-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.row>* {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0%;
+}
+
+.row h3 {
+    color: #6c50d1;
+}
+
+/* --------------------PAGINA FORMULÁRIOS---------------- */
+
+input,
+label,
+textarea,
+select {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+input, textarea, select {
+    background-color: #dbdbdb;
+    padding: .7rem;
+    border-radius: 5px;
+    margin-bottom: 1.6rem;
+    border: 0;
+}
+
+.row .row {
+    padding: 0;
+}
+
+.botao {
+    background-color: #6c50d1;
+    color: white;
+    font-weight: 600;
+    border: 1px solid  #563abb;
+    font-size: .9rem;
+    cursor: pointer;
+    padding: .7rem;
+    border-radius: 5px;
+}
+
+.botao + .botao {
+    margin-left: 2rem;
+}
+
+.botao:hover, .botao:focus {
+    background-color: #563abb;
+}
+
+.quiz {
+    width: calc(50% - 1.5rem);
+    /* esse 1.5rem é referente ao gap da .row */
+}
+
+.botao-stroke {
+    background-color: transparent;
+    color: #131313;
+}
+
+.botao-stroke:hover {
+    color: white;
+}
+
+.botao-big {
+    font-size: 1rem;
+}
+
+.botao-full {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.botao-full + .botao-full {
+    margin-left: 0;
+    margin-top: 2rem;
+}
+
+
+/* --------------------PAGINA TABELAS---------------- */
+
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela td:last-child, 
+.tabela th:last-child {
+    text-align: right;
+    
+}
+
+.tabela td,
+.table th {
+    padding: 1rem;
+}
+.tabela:not(.tabela-alternada) td {
+    border-bottom: 1px solid #a196c9;
+
+}
+
+
+.tabela th {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tabela-alternada tbody tr:nth-child(odd) {
+background-color: #a196c9;
+}
+
+.tabela-vertical td:not(:last-child),
+.tabela-vertical th:not(:last-child) {
+border-right: 1px solid #6c50d1;
+}
